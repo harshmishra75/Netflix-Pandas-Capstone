@@ -1,12 +1,12 @@
 # 🎬 Netflix Content Analysis (Pandas Capstone Project)
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes the **Netflix Movies and TV Shows dataset** using **Python (Pandas)**.  
 The goal is to clean the dataset, handle missing values, perform feature engineering, and extract meaningful insights about Netflix content trends.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Perform complete **data cleaning** and preprocessing
 - Handle **missing values** and duplicates
 - Create new useful columns using **feature engineering**
@@ -15,7 +15,7 @@ The goal is to clean the dataset, handle missing values, perform feature enginee
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 - **Source:** Kaggle – Netflix Movies and TV Shows dataset  
 - **File:** `netflix_titles.csv`
 - **Main Columns:**
@@ -24,7 +24,7 @@ The goal is to clean the dataset, handle missing values, perform feature enginee
 
 ---
 
-## 🛠 Tools & Libraries Used
+##  Tools & Libraries Used
 - Python
 - Pandas
 - NumPy
@@ -32,7 +32,7 @@ The goal is to clean the dataset, handle missing values, perform feature enginee
 
 ---
 
-## 🔧 Data Cleaning Steps
+##  Data Cleaning Steps
 - Checked missing values in all columns
 - Filled missing values:
   - `director`, `cast`, `country` → `"Unknown"`
@@ -45,7 +45,7 @@ The goal is to clean the dataset, handle missing values, perform feature enginee
 
 ---
 
-## 🧠 Feature Engineering
+##  Feature Engineering
 Created new columns for better analysis:
 - `year_added` from `date_added`
 - `month_added` from `date_added`
@@ -53,7 +53,7 @@ Created new columns for better analysis:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 Some analysis questions covered:
 - Movies vs TV Shows count
 - Top 10 countries producing Netflix content
@@ -65,7 +65,7 @@ Some analysis questions covered:
 
 ---
 
-## 🔥 Key Insights
+##  Key Insights
 - Netflix contains more **Movies** than **TV Shows**
 - Most content was added after **2016**
 - **USA** is the top country producing Netflix content
@@ -76,19 +76,19 @@ Some analysis questions covered:
 
 ---
 
-## 📁 Output Files
+## Output Files
 - `Netflix_Capstone.ipynb` → Full project notebook
 - `netflix_cleaned.csv` → Cleaned dataset exported after preprocessing
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 This project demonstrates complete end-to-end data analysis using Pandas.  
 It improved my skills in data cleaning, handling missing values, feature engineering, and EDA, while extracting useful insights from a real-world Kaggle dataset.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Add visualizations using Matplotlib/Seaborn
 - Build dashboards using Power BI / Tableau
 - Apply ML models for prediction or recommendation
@@ -97,3 +97,4 @@ It improved my skills in data cleaning, handling missing values, feature enginee
 
 ### 👤 Author
 **Harsh Mishra**
+
